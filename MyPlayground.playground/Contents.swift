@@ -96,3 +96,31 @@ let BETTER_SQL = """
                                                 \(colSubTitle) TEXT
                     )
 """
+
+
+//Reference: where to study?
+//Book - The swift programing languge
+//wwdc
+
+
+
+// arrays and lists and dictioneries (Bundle, HasMap in Java), and Sets...
+// In Swift, there is Arrays
+// they act as lists and are eficient
+
+var a:[Int] = [1,2,3] // ugly
+// var a = [1,2,3] // beutifull
+
+var arr = ["Hello","Aloha","Ahalan"]
+print(arr[0])
+arr.append("shalom")
+
+var names:[String]=[]
+
+// less recomended syntax
+var more = [String]()
+
+
+//Flow Control - loop, if, switch
+
+
