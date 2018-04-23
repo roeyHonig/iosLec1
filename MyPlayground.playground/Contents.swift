@@ -122,5 +122,28 @@ var more = [String]()
 
 
 //Flow Control - loop, if, switch
+//fori in Java
+//from 0 to 10 inclusive
+for i in 0...10{
+    print(i)
+}
 
+//fori in Java
+//from 0 to 10 (exclusive)
+//0...9
 
+for x in 3..<10{
+    print(x)
+    
+}
+
+var fib:[Int]=[1,1,2,3,5,8,13]
+
+for myX in fib{
+    print(myX)
+}
+
+var sum = 0
+for item in fib{
+    sum += item
+}
