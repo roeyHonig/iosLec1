@@ -79,4 +79,20 @@ let apSum = "I have \(apples) Apples"
 
 // we can also use this in a cool way with DB
 let tableName = "students"
+let colID = "1"
+let colTitle = "grades"
+let colSubTitle = "hello"
 let sql = "SELECT * FROM \(tableName)"
+
+//swift
+//single line Strings:
+let SQL = "CREATE TABLE \(tableName)(\(colID) INTEGER PRIMARY KEY, \(colTitle) TEXT, \(colSubTitle) TEXT)"
+
+//Swift 4 introudced """ in order to have multiple lines
+let BETTER_SQL = """
+                    CREATE TABLE \(tableName)(
+                                                \(colID) INTEGER PRIMARY KEY,
+                                                \(colTitle) TEXT,
+                                                \(colSubTitle) TEXT
+                    )
+"""
