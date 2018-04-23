@@ -117,7 +117,7 @@ arr.append("shalom")
 
 var names:[String]=[]
 
-// less recomended syntax
+// less recomended syntax/
 var more = [String]()
 
 
