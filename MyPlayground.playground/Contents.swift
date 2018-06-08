@@ -54,6 +54,10 @@ let vc = UIButton()
 let str1 = "3"
 let intValue = Int(str1)
 print(intValue)
+// this will print "Optional(3)" because swift converted the optional Int(str1) - why optional ? , because swift can't be sure str1 has a string - to an Object - Any
+// ! will correct it , it says to swify "give me an Int !!!!" , we'll see less strict ways to handle optionals
+let intValue2 = Int(str1)!
+print(intValue2)
 
 //Type casting
 
@@ -69,11 +73,12 @@ print ("The Result: " + String(tipAmount1))
 let apples = 3
 let oranges = 5
 
+// Old Way
 let appleSummery = "I Have " + String(apples) + " apples"
 // The Swify way:
 //String interpolation:
 let apSum = "I have \(apples) Apples"
-
+print(apSum)
 // use String Interpolation to include a name in a greeting
 
 
@@ -104,7 +109,7 @@ let BETTER_SQL = """
 
 
 
-// arrays and lists and dictioneries (Bundle, HasMap in Java), and Sets...
+// arrays and lists and dictioneries (Bundle, HasMap in Java), and Sets (in a set , every entery is unicq)...
 // In Swift, there is Arrays
 // they act as lists and are eficient
 
@@ -114,6 +119,7 @@ var a:[Int] = [1,2,3] // ugly
 var arr = ["Hello","Aloha","Ahalan"]
 print(arr[0])
 arr.append("shalom")
+print(arr)
 
 var names:[String]=[]
 
