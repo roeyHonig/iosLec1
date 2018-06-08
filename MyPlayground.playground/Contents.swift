@@ -147,3 +147,5 @@ var sum = 0
 for item in fib{
     sum += item
 }
+print(fib)
+print("The Sum of fib members is: \(sum)")
